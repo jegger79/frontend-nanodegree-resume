@@ -18,12 +18,17 @@ h6 {
   overflow: auto;
 }
 
+.online-classes,
 .education-entry,
 .work-entry,
 .project-entry {
   padding: 0 5%;
 }
 
+.project-entry img {
+width: 200px;
+
+}
 h1 {
   font-size: 40px;
   color: #f5a623;
@@ -60,6 +65,7 @@ h5 {
   padding:10px 5%;
 
 }
+
 
 
 .date-text {
@@ -167,6 +173,13 @@ span {
 #lets-connect {
   text-align: center;
 }
+
+#skills {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
 
 /* Media queries to handle various device widths */
 
